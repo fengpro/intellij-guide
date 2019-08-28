@@ -8,8 +8,8 @@
 
 #### 常用设置
 依次打开file -> Settings, 常用配置基本在这里。
-- ###### 主题设置
-  - 如图，可以选择你喜欢的主题，改变后需要重启才能生效。
+- ###### Appearance & Behavior
+  - Appearance需要设置的地方 
 ![theme](resources/1.png "theme")
 
 #### 代码模板
