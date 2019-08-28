@@ -9,7 +9,9 @@
 #### 常用设置
 依次打开file -> Settings, 常用配置基本在这里。
 - ###### Appearance & Behavior
-  - Appearance需要设置的地方 
+  - Appearance需要设置的地方： 
+  - 1.主题修改，选择你喜欢的主题后需要重启才能生效，我喜欢黑色背景的所以选用了Darcula
+  - 2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
 ![theme](resources/1.png "theme")
 
 #### 代码模板
