@@ -14,6 +14,8 @@
   - 2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
 ![Appearance](resources/1.png "Appearance")
 - ###### Keymap
+![Keymap](resources/2.png "Keymap")
+  - 如果需要修改快捷键，双击快捷键弹出框选择
   - win系统下常用的快捷键
   
    |功能键|功能描述|
