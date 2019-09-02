@@ -15,11 +15,51 @@
 ![Appearance](resources/1.png "Appearance")
 - ###### Keymap
   - win系统下常用的快捷键
-   功能键|功能描述
-   --|:--:
+  
+   |功能键|功能描述|
+   |---|---|
    Ctrl + R|当前文本进行替换
-   关羽|打
-   张飞|骂
+   Ctrl + X|剪切光标所在行或所选择的内容
+   Ctrl + D|复制光标所在行或复制选择内容，并插入光标所在的下行
+   Ctrl + R|当前文本进行替换
+   Ctrl + W|在原有选中基础上再扩展范围
+   Ctrl + E|最近文件记录
+   Ctrl + N|搜索类文件
+   Ctrl + U|光标所在方法的父类的方法/接口定义地方
+   Ctrl + B|进入光标所在的方法/变量的接口或是定义处
+   Ctrl + O|可重写的方法
+   Ctrl + I|可继承的方法
+   Ctrl + F12|当前文件结构层
+   Alt + F7|方法、变量、类被调用地方
+   Alt + F8|Debug弹出计算表达式输入框，可查看输入内容的调试结果
+   Alt + Insert|生成对象的get/set， toString等
+   连续两次Shift|search everywhere
+   Shift + F6|重命名
+   Shift + Home|当前光标位置到行首都被选中
+   Shift + End|当前光标位置到行尾都被选中
+   Shift + Enter|开始新行
+   Shift + F6|重命名
+   Shift + 鼠标左键单击|关闭该文件
+   Shift + 鼠标滚轮|文件横向移动
+   Ctrl + Alt + 左方向键|退回上一个操作地方
+   Ctrl + Alt + 右方向键|前进上一个操作地方
+   Ctrl + Shift + F|整个项目或指定目录搜索
+   Ctrl + Shift + R|整个项目或指定目录全部替换
+   Ctrl + Shift + J|将下一行合并到当前行
+   Ctrl + Shift + Z|取消撤销
+   Ctrl + Shift + T|对当前类生成测试类
+   Ctrl + Shift + C|复制当前文件的路径
+   Ctrl + Shift + /|注释代码块
+   Ctrl + Shift + Backspace|退回到上次修改地方
+   Ctrl + Shift + 上方向键|光标放在方法上，该方法调整到前面
+   Ctrl + Shift + 下方向键|光标放在方法上，该方法调整到后面
+   Alt + Shift + 上方向键|光标所在行向上移动
+   Alt + Shift + 下方向键|光标所在行向下移动
+   F2|调到下一个高亮错误或警告位置
+   F3|查找模式下，定位到下一个匹配处
+   F7|Debug模式下，进入方法体内
+   F8|Debug模式下，进入下一步
+   F9|Debug模式下，恢复程序运行，或停留在下一个断点上
 #### 代码模板
 ##### 实时代码模板
 ##### 文件代码模板
