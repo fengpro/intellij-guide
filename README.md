@@ -14,8 +14,8 @@
   - 2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
 ![Appearance](resources/1.png "Appearance")
 - ###### Keymap
-![Keymap](resources/2.png "Keymap")
   - 如果需要修改快捷键，双击快捷键弹出框选择
+![Keymap](resources/2.png "Keymap")
   - win系统下常用的快捷键
   
    |功能键|功能描述|
@@ -62,6 +62,26 @@
    F7|Debug模式下，进入方法体内
    F8|Debug模式下，进入下一步
    F9|Debug模式下，恢复程序运行，或停留在下一个断点上
+   
+- ###### Editor
+  - General-> Auto Import 
+  ![Auto Import ](resources/7.png "Auto Import ")
+  1可以自动帮我们导入需要的包
+  2可以帮助我们优化导入的包，自动去除一些不需要的import
+  - General-> Appearance
+    Show line numbers 显示行数
+    Show method separators 显示方法线
+  ![Appearance](resources/8.png "Appearance")
+  - General-> Code Completion 代码提示和补充功能，All letter是不区分大小写的
+  ![Code Completion](resources/6.png "Code Completion")
+  - Font 这里修改的是代码的字体
+  ![Font](resources/3.png "Font")
+  - Color Scheme-> Console Font 这里修改的是控制台的字体
+  ![Console Font](resources/4.png "Console Font")
+  
+  - File Encodings 如图几处，建议都修改为UTF-8；
+    Transparent native-to-ascii conversion也建议勾选上，主要用于properties文件的中文转换
+  ![File Encodings](resources/5.png "File Encodings")
 #### 代码模板
 ##### 实时代码模板
 ##### 文件代码模板
