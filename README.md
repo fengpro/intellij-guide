@@ -10,9 +10,13 @@
 依次打开file -> Settings, 常用配置基本在这里。
 - ###### Appearance & Behavior
   - Appearance需要设置的地方： 
-  - 1.主题修改，选择你喜欢的主题后需要重启才能生效，我喜欢黑色背景的所以选用了Darcula
-  - 2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
-![Appearance](resources/1.png "Appearance")
+     1.主题修改，选择你喜欢的主题后需要重启才能生效，我喜欢黑色背景的所以选用了Darcula
+     2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
+     ![Appearance](resources/1.png "Appearance")
+  - System settings
+     1处Reopen last project on startup建议关闭
+     2处建议选择Open project in new window 每次都使用新窗口打开
+     ![System settings](resources/10.png "System settings")
 - ###### Keymap
   - 如果需要修改快捷键，双击快捷键弹出框选择
 ![Keymap](resources/2.png "Keymap")
@@ -82,6 +86,10 @@
   - File Encodings 如图几处，建议都修改为UTF-8；
     Transparent native-to-ascii conversion也建议勾选上，主要用于properties文件的中文转换
   ![File Encodings](resources/5.png "File Encodings")
+  
+- ###### Build,Execution,Deployment
+  - Compiler 如果编译过程很慢，可以加大内存，我的内存是16G，一般都设为1500
+  ![Compiler](resources/9.png "Compiler")  
 #### 代码模板
 ##### 实时代码模板
 ##### 文件代码模板
