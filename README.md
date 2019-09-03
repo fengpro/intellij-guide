@@ -9,12 +9,16 @@
 #### 常用设置
 依次打开file -> Settings, 常用配置基本在这里。
 - ###### Appearance & Behavior
-  - Appearance需要设置的地方： 
+  - Appearance需要设置的地方：
+  
      1.主题修改，选择你喜欢的主题后需要重启才能生效，我喜欢黑色背景的所以选用了Darcula
+     
      2.主题字体可修改，这里修改需要注意有些字体不支持中文会出现乱码，我一般选择Verdana size：12就可以了
      ![Appearance](resources/1.png "Appearance")
   - System settings
+  
      1处Reopen last project on startup建议关闭
+     
      2处建议选择Open project in new window 每次都使用新窗口打开
      ![System settings](resources/10.png "System settings")
 - ###### Keymap
@@ -70,10 +74,14 @@
 - ###### Editor
   - General-> Auto Import 
   ![Auto Import ](resources/7.png "Auto Import ")
+  
   1可以自动帮我们导入需要的包
+  
   2可以帮助我们优化导入的包，自动去除一些不需要的import
   - General-> Appearance
+  
     Show line numbers 显示行数
+    
     Show method separators 显示方法线
   ![Appearance](resources/8.png "Appearance")
   - General-> Code Completion 代码提示和补充功能，All letter是不区分大小写的
@@ -82,6 +90,11 @@
   ![Font](resources/3.png "Font")
   - Color Scheme-> Console Font 这里修改的是控制台的字体
   ![Console Font](resources/4.png "Console Font")
+  
+  - Inspection 
+  
+  搜索Serializable issues,勾选Serializable class without serialVersionUID，则可以帮我们生成serialVersionUID 
+  ![Serializable issues](resources/11.png "Serializable issues")
   
   - File Encodings 如图几处，建议都修改为UTF-8；
     Transparent native-to-ascii conversion也建议勾选上，主要用于properties文件的中文转换
