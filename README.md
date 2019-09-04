@@ -23,7 +23,11 @@
      ![System settings](resources/10.png "System settings")
 - ###### Keymap
   - 如果需要修改快捷键，双击快捷键弹出框选择
-![Keymap](resources/2.png "Keymap")
+  
+  比如代码提示快捷键Ctrl+空格经常被输入法占用，我们可以搜索Basic双击修改为Ctrl+逗号
+  
+  ![Keymap](resources/2.png "Keymap")
+  
   - win系统下常用的快捷键
   
    |功能键|功能描述|
@@ -112,8 +116,12 @@
 #### Debug使用
 
 #### 常用版本管理工具
-##### Maven
-##### Git
+- ##### Maven
+  
+  ![Maven](resources/12.png "Maven")  
+  
+  如果你没有配置MAVEN_HOME的环境变量，需要在maven home directory配置你的安装目录,还可以指定 Maven 的 settings.xml 位置和本地仓库位置
+- ##### Git
 ##### 
 
 #### 常用插件
